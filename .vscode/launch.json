@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ConstantTimeComplexity",
+            "request": "launch",
+            "mainClass": "TimeComplexity.ConstantTimeComplexity",
+            "projectName": "DocumentationAndCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainClass",
+            "request": "launch",
+            "mainClass": "DesignPatterns.BuilderDesignPattern.MainClass",
+            "projectName": "DocumentationAndCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticInnerClass",
+            "request": "launch",
+            "mainClass": "InnerClassesInJava.StaticInnerClass",
+            "projectName": "DocumentationAndCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AnonymousInnerClass",
+            "request": "launch",
+            "mainClass": "InnerClassesInJava.AnonymousInnerClass",
+            "projectName": "DocumentationAndCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InnerClassDemo",
+            "request": "launch",
+            "mainClass": "InnerClassesInJava.InnerClassDemo",
+            "projectName": "DocumentationAndCode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LowerBoundedWildCard",
             "request": "launch",
             "mainClass": "GenericsWildCard.LowerBoundedWildCard",
