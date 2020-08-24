@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    border: 20px solid lightslategray;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    align-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse;  default is row*/
+    /* flex-direction: column; */
+}
+
+.child1{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    background-color: lightcoral;
+    flex-grow: 2;
+}
+
+.child2{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    background-color: lightseagreen;
+    flex-grow: 1;
+}
+.child3{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    background-color: lightgreen;
+}
+
+.child4{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    background-color: lightskyblue;
+}
